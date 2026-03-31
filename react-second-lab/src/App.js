@@ -1,5 +1,6 @@
 import React from "react";
 import Main from "./components/Main";
+import UserForm from "./UserForm";
 
 function App() {
   const cardsData = [
@@ -24,6 +25,7 @@ function App() {
     <div>
       <h1>Мої картки</h1>
       <Main data={cardsData} />
+      <UserForm />
     </div>
   );
 }
